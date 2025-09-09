@@ -43,22 +43,20 @@ You need Python 3.8+ and pip installed on your system.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
-    cd your-repository-name
+    git clone https://github.com/Snobin-Antony/UK-Milk-Production-Forecasting-Using-AHDB-Data.git
+    cd UK-Milk-Production-Forecasting-Using-AHDB-Data
     ```
 
 2.  **Install the required libraries:**
-    The necessary libraries are listed in `requirements.txt`.
+    The necessary libraries.
     ```bash
-    pip install -r requirements.txt
+    pip install pandas scikit-learn xgboost matplotlib
     ```
-    *(Note: You will need to create a `requirements.txt` file containing libraries like pandas, xgboost, scikit-learn, and matplotlib).*
-
 ---
 
 ## Usage
 
-1.  Place the AHDB milk production CSV file in the `data/` directory (you may need to create this folder).
+1.  Place the AHDB milk production CSV file in the `/` directory.
 2.  Open the Jupyter Notebook `milk-production-forecast.ipynb`.
 3.  Run the cells in the notebook sequentially to see the workflow from data loading to final prediction.
 
@@ -71,7 +69,7 @@ The final model is able to capture the primary trend and seasonality in the milk
 *(Here you can add an image of your final forecast plot)*
 `![Forecast Plot](images/forecast_plot.png)`
 
-The model achieves a **Root Mean Squared Error (RMSE)** of X.XX on the test set, indicating the average prediction error in million litres.
+The model achieves a **Root Mean Squared Error (RMSE)** of 0.54 on the test set, indicating the average prediction error in million litres.
 
 ---
 
