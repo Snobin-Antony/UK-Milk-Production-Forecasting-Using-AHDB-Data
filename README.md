@@ -66,7 +66,7 @@ You need Python 3.8+ and pip installed on your system.
 
 The final model is able to capture the primary trend and seasonality in the milk production data. The plot below shows the model's predictions (forecast) against the actual production values for the test period.
 
-![Forecast Plot](images/forecast_plot.png)
+![Forecast Plot](images/forecast_plot.pn)
 
 The model achieves a **Root Mean Squared Error (RMSE)** of 0.54 on the test set, indicating the average prediction error in million litres.
 
